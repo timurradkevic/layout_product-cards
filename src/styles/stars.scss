@@ -1,34 +1,16 @@
-.products-card__reviews-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 24px;
-}
-
 .stars {
   display: flex;
-}
 
-.stars__star {
+  &__star {
   background-image: url(../images/star.svg);
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
-}
-
-.stars--4 .stars__star:nth-child(-n + 4) {
+  }
+  .stars--4 &__star:nth-child(-n + 4) {
   background-image: url(../images/star-active.svg);
-}
+  }
 
-.products-card__reviews-count {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 0%;
-  text-align: right;
-  vertical-align: bottom;
-  color: $main-text-color;
 }
