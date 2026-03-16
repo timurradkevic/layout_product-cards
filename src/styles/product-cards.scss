@@ -1,0 +1,87 @@
+.products-card {
+  box-sizing: border-box;
+  width: 200px;
+  height: 408px;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 32px 16px 16px;
+}
+
+.products-card__image {
+  display: block;
+  width: 160px;
+  height: 134px;
+  margin: 0 auto 40px;
+}
+
+.products-card__name {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: $main-text-color;
+  margin-bottom: 0;
+}
+
+.products-card__code {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  color: $secondary-text-color;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.products-card__buy-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.products-card__buy-price {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: $secondary-text-color;
+}
+
+.products-card__buy-price-value {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: bottom;
+  color: $main-text-color;
+}
+
+.products-card__buy-button {
+  width: 166px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $main-button-color;
+  color: #fff;
+  margin-top: 16px;
+  border: 0;
+}
+
+.products-card__buy-button:hover {
+  color: $main-button-color;
+  background-color: #fff;
+  border: 1px solid $main-button-color;
+}
